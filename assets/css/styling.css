@@ -20,6 +20,24 @@ ul {
      ;
    }
 
+   .container {
+     background-color: #ffffff;
+     border: 80px;
+     border-style: solid;
+     border-color: lightslategray;
+     padding: 50px;
+   }
+
+.images {
+    justify-content: space-evenly;
+    width: 50%
+
+}
+/* Padding of 10px for all images*/
+.images img {
+    padding: 10px;
+}
+   
 .header,
 .footer {
      background-color: #666666;
@@ -29,14 +47,8 @@ ul {
      padding: 24px;
      margin: 10px
 }
-.container {
-     border-radius: 5px;
-     background-color: #f2f2f2;
-     padding: 20px;
-     boarder
-     
-   }
 
+     
                
 .ContactForm{ 
      color: black;
