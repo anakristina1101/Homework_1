@@ -21,7 +21,9 @@ ul {
      padding: 8px;
      ;
    }
-
+   .PageName{
+     color:#4aaaa5;
+   }
    .container {
      background-color: #ffffff;
      border: 80px;
@@ -39,7 +41,22 @@ ul {
  img {
     padding: 10px;
 }
-   
+.Thumbnail {
+  display: inline-block;
+  position: relative;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left:5%;
+  top: 75%;
+  width: 90%;
+  height: 15%;
+  color: #fff;
+  background-color: #4aaaa5;
+}
+
 .header,
 .footer {
      background-color: #666666;
