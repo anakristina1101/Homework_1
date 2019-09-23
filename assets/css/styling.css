@@ -1,7 +1,9 @@
 
-
-
-
+.NamePlate mark{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color:#4aaaa5; 
+    font-weight: bolder;
+}
 
 ul {
      list-style-type: none;
@@ -33,8 +35,8 @@ ul {
     width: 50%
 
 }
-/* Padding of 10px for all images*/
-.images img {
+
+ img {
     padding: 10px;
 }
    
@@ -49,8 +51,10 @@ ul {
 }
 
      
-               
-.ContactForm{ 
+     
+.ContactForm, .PortfolioForm{ 
+     font-family: 'Georgia', Times, 'Times New Roman', serif;
+     font-weight: bolder;
      color: black;
 }        
 
